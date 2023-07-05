@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import re
-import preprocessor as p
+import preprocessor as p #pip3 install tweet-preprocessor not pip3 install preprocessor
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn import svm
